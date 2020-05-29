@@ -30,7 +30,7 @@ namespace Calculator
             do
             {
                 mathRequest = AskForUserInput();
-
+                mathLib.ExecuteRequest(mathRequest);
                 Console.WriteLine("Your request                : " + mathRequest.ToString() + "\r\n");
                 
                 AskUserToContinue();

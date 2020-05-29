@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -40,17 +41,17 @@ namespace Model
         /// <summary>
         /// This accessor delivers the value of ope
         /// </summary>
-        public char OperatorChar()
+        public char OperatorChar
         {
-            return this.operatorChar;
+            get { return this.operatorChar; }
         }
 
         /// <summary>
         /// This accessor delivers the value of op2
         /// </summary>
-        public int Operand2()
+        public int Operand2
         {
-            return this.operand2;
+            get { return this.operand2; }
         }
 
         /// <summary>
