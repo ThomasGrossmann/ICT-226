@@ -1,0 +1,6 @@
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\226-Calculator\Calculator\src\Model\bin\Debug\Model.dll
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\226-Calculator\Calculator\src\Model\bin\Debug\Model.pdb
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\226-Calculator\Calculator\src\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\226-Calculator\Calculator\src\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\226-Calculator\Calculator\src\Model\obj\Debug\Model.dll
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\226-Calculator\Calculator\src\Model\obj\Debug\Model.pdb
