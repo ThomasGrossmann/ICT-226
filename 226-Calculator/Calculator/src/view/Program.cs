@@ -19,7 +19,7 @@ namespace Calculator
         #endregion Variables declaration
 
         /// <summary>
-        /// This method is the entry point
+        /// This method is the entry point of the application
         /// </summary>
         /// <param name="args"></param>
         static private void Main(string[] args)
