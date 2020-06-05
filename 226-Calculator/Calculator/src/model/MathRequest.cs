@@ -58,9 +58,9 @@ namespace Model
         /// This mutator sets the value of result
         /// </summary>
         /// <returns></returns>
-        public void Result(int value)
+        public int Result
         {
-            this.result = value;
+            set { this.result = value; }
         }
         #endregion accessors and mutators
 

@@ -9,19 +9,35 @@ namespace EncapsuleMe
     public class Ouf
     {
         #region private attributs
-        public int Laf = 1;
-        public float Oursk;
-        public string Mixtesas;
+        private int laf;
+        private float oursk;
+        private string mixtesas;
         #endregion private attributs
 
         #region constructors
         public Ouf(int aslk, float vlugrp, string akalk)
         {
-            this.Laf += 15;
-            this.Oursk = 34F;
-            this.Mixtesas = "heben...";
+            this.laf = aslk;
+            this.oursk = vlugrp;
+            this.mixtesas = akalk;
         }
 
         #endregion constructors
+
+        public int Laf
+        {
+            get { return this.laf;  }
+            set { this.laf = value; }
+        }
+
+        public float Oursk
+        {
+            get { return this.oursk; }
+        }
+
+        public string Mixtesas
+        {
+            get { return this.mixtesas; }
+        }
     }
 }
