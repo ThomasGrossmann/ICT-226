@@ -1,0 +1,6 @@
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\Lexical\bin\Debug\Lexical.dll
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\Lexical\bin\Debug\Lexical.pdb
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\Lexical\obj\Debug\Lexical.csprojAssemblyReference.cache
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\Lexical\obj\Debug\Lexical.csproj.CoreCompileInputs.cache
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\Lexical\obj\Debug\Lexical.dll
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\Lexical\obj\Debug\Lexical.pdb

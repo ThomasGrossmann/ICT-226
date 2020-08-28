@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lexical", "Lexical\Lexical.csproj", "{A8553131-F8D8-4370-BE46-CDF52E9567CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLexical", "TestLexical\TestLexical.csproj", "{2D40DEF5-8451-441A-B9C7-2B844694B0C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8553131-F8D8-4370-BE46-CDF52E9567CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8553131-F8D8-4370-BE46-CDF52E9567CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8553131-F8D8-4370-BE46-CDF52E9567CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8553131-F8D8-4370-BE46-CDF52E9567CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D40DEF5-8451-441A-B9C7-2B844694B0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D40DEF5-8451-441A-B9C7-2B844694B0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D40DEF5-8451-441A-B9C7-2B844694B0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D40DEF5-8451-441A-B9C7-2B844694B0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {711463FC-D74C-4CA8-8460-40E59531936E}
+	EndGlobalSection
+EndGlobal

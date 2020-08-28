@@ -1,0 +1,16 @@
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\TestLexical\obj\Debug\TestLexical.csprojAssemblyReference.cache
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\TestLexical\obj\Debug\TestLexical.csproj.CoreCompileInputs.cache
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\TestLexical\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\TestLexical\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\TestLexical\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\TestLexical\bin\Debug\TestLexical.dll
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\TestLexical\bin\Debug\TestLexical.pdb
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\TestLexical\bin\Debug\Lexical.dll
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\TestLexical\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\TestLexical\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\TestLexical\bin\Debug\Lexical.pdb
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\TestLexical\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\TestLexical\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\TestLexical\obj\Debug\TestLexical.csproj.CopyComplete
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\TestLexical\obj\Debug\TestLexical.dll
+C:\Users\Thomas Grossmann\Documents\GitHub\ICT-226\Lexical\TestLexical\obj\Debug\TestLexical.pdb
