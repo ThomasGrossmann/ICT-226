@@ -7,13 +7,18 @@ namespace TestIntroTDD
     public class TestCalculator
     {
         #region private attributes
-        int actualResult;
+        private int actualResult;
+        private int op1;
+        private int op2;
+        private int expectedResult;
+        Calculator calculator = new Calculator();
         #endregion private attributes
 
         [TestInitialize]
         public void Init()
         {
-            
+            this.op1 = 4;
+            this.op2 = 2;
         }
 
 
@@ -21,64 +26,52 @@ namespace TestIntroTDD
         public void AddNominalCaseSuccess()
         {
             //given
-            int expectedResult = 6;
-            int op1 = 4;
-            int op2 = 2;
-            Calculator calculator = new Calculator();
+            this.expectedResult = 6;
 
             //when
-            actualResult = calculator.Add(op1, op2);
+            this.actualResult = this.calculator.Add(this.op1, this.op2);
 
             //then
-            Assert.AreEqual(expectedResult,actualResult);
+            Assert.AreEqual(this.expectedResult, this.actualResult);
         }
 
         [TestMethod]
         public void SubNominalCaseSuccess()
         {
             //given
-            int expectedResult = 2;
-            int op1 = 4;
-            int op2 = 2;
-            Calculator calculator = new Calculator();
+            this.expectedResult = 2;
 
             //when
-            actualResult = calculator.Sub(op1, op2);
+            this.actualResult = this.calculator.Sub(this.op1, this.op2);
 
             //then
-            Assert.AreEqual(expectedResult, actualResult);
+            Assert.AreEqual(this.expectedResult, this.actualResult);
         }
 
         [TestMethod]
         public void MulNominalCaseSuccess()
         {
             //given
-            int expectedResult = 8;
-            int op1 = 4;
-            int op2 = 2;
-            Calculator calculator = new Calculator();
+            this.expectedResult = 8;
 
             //when
-            actualResult = calculator.Mul(op1, op2);
+            this.actualResult = this.calculator.Mul(op1, op2);
 
             //then
-            Assert.AreEqual(expectedResult, actualResult);
+            Assert.AreEqual(expectedResult, this.actualResult);
         }
 
         [TestMethod]
         public void DivNominalCaseSuccess()
         {
             //given
-            int expectedResult = 2;
-            int op1 = 4;
-            int op2 = 2;
-            Calculator calculator = new Calculator();
+            this.expectedResult = 2;
 
             //when
-            actualResult = calculator.Div(op1, op2);
+            this.actualResult = this.calculator.Div(this.op1, this.op2);
 
             //then
-            Assert.AreEqual(expectedResult, actualResult);
+            Assert.AreEqual(this.expectedResult, this.actualResult);
         }
     }
 }
