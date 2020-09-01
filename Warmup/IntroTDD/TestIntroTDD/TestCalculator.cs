@@ -6,11 +6,21 @@ namespace TestIntroTDD
     [TestClass]
     public class TestCalculator
     {
+        #region private attributes
+        int actualResult;
+        #endregion private attributes
+
+        [TestInitialize]
+        public void Init()
+        {
+            
+        }
+
+
         [TestMethod]
         public void AddNominalCaseSuccess()
         {
             //given
-            int actualResult;
             int expectedResult = 6;
             int op1 = 4;
             int op2 = 2;
@@ -27,7 +37,6 @@ namespace TestIntroTDD
         public void SubNominalCaseSuccess()
         {
             //given
-            int actualResult;
             int expectedResult = 2;
             int op1 = 4;
             int op2 = 2;
@@ -44,7 +53,6 @@ namespace TestIntroTDD
         public void MulNominalCaseSuccess()
         {
             //given
-            int actualResult;
             int expectedResult = 8;
             int op1 = 4;
             int op2 = 2;
@@ -61,7 +69,6 @@ namespace TestIntroTDD
         public void DivNominalCaseSuccess()
         {
             //given
-            int actualResult;
             int expectedResult = 2;
             int op1 = 4;
             int op2 = 2;
