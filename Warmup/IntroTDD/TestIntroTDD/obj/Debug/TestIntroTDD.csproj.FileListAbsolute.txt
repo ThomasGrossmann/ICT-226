@@ -1,0 +1,2 @@
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\TestIntroTDD\obj\Debug\TestIntroTDD.csprojAssemblyReference.cache
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\TestIntroTDD\obj\Debug\TestIntroTDD.csproj.CoreCompileInputs.cache

@@ -1,0 +1,6 @@
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\bin\Debug\IntroTDD.dll
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\bin\Debug\IntroTDD.pdb
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\obj\Debug\IntroTDD.csprojAssemblyReference.cache
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\obj\Debug\IntroTDD.csproj.CoreCompileInputs.cache
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\obj\Debug\IntroTDD.dll
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\obj\Debug\IntroTDD.pdb
