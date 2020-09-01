@@ -11,7 +11,7 @@ namespace TestIntroTDD
         private int op1;
         private int op2;
         private int expectedResult;
-        Calculator calculator = new Calculator();
+        private Calculator calculator;
         #endregion private attributes
 
         [TestInitialize]
@@ -19,6 +19,7 @@ namespace TestIntroTDD
         {
             this.op1 = 4;
             this.op2 = 2;
+            this.calculator = new Calculator();
         }
 
 
@@ -55,7 +56,7 @@ namespace TestIntroTDD
             this.expectedResult = 8;
 
             //when
-            this.actualResult = this.calculator.Mul(op1, op2);
+            this.actualResult = this.calculator.Mul(this.op1, this.op2);
 
             //then
             Assert.AreEqual(expectedResult, this.actualResult);
