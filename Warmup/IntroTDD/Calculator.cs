@@ -27,7 +27,12 @@ namespace IntroTDD
 
         public int Mul(int operande01, int operande02)
         {
-            return operande01 * operande02
+            return operande01 * operande02;
+        }
+
+        public int Div(int operande01, int operande02)
+        {
+            return operande01 / operande02;
         }
         #endregion public methods
     }

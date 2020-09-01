@@ -1,2 +1,13 @@
 C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\TestIntroTDD\obj\Debug\TestIntroTDD.csprojAssemblyReference.cache
 C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\TestIntroTDD\obj\Debug\TestIntroTDD.csproj.CoreCompileInputs.cache
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\TestIntroTDD\bin\Debug\TestIntroTDD.dll
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\TestIntroTDD\bin\Debug\TestIntroTDD.pdb
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\TestIntroTDD\bin\Debug\IntroTDD.dll
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\TestIntroTDD\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\TestIntroTDD\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\TestIntroTDD\bin\Debug\IntroTDD.pdb
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\TestIntroTDD\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\TestIntroTDD\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\TestIntroTDD\obj\Debug\TestIntroTDD.csproj.CopyComplete
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\TestIntroTDD\obj\Debug\TestIntroTDD.dll
+C:\Users\Thomas.GROSSMANN\Documents\GitHub\ICT-226\Warmup\IntroTDD\TestIntroTDD\obj\Debug\TestIntroTDD.pdb
