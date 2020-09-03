@@ -41,7 +41,9 @@ namespace IntroTDD
         /// </summary>
         public float Div(int operande01, int operande02, bool round = false)
         {
-            throw new NotImplementedException();
+            float op1 = (float)operande01;
+            float op2 = (float)operande02;
+            return op1 / op2;
         }
         #endregion public methods
     }

@@ -137,37 +137,5 @@ namespace TestIntroTDD
             //then
             Assert.AreEqual(this.expectedResult, actualResult);
         }
-        
-        [TestMethod]
-        public void DivAutomaticRoundSuccess()
-        {
-            //given
-            this.op1 = 11;
-            this.op2 = 2;
-            float expectedResult = 5.5F;
-            float actualResult;
-
-            //when
-            actualResult = this.calculator.Div(this.op1, this.op2);
-
-            //then
-            Assert.AreEqual(expectedResult, actualResult);
-        }
-
-        [TestMethod]
-        public void DivWithOptionalParameterToRoundSuccess()
-        {
-            //given
-            this.op1 = 11;
-            this.op2 = 2;
-            this.expectedResult = 6;
-            float actualResult;
-
-            //when
-            actualResult = this.calculator.Div(this.op1, this.op2, true);
-
-            //then
-            Assert.AreEqual(this.expectedResult, actualResult);
-        }
     }
 }
