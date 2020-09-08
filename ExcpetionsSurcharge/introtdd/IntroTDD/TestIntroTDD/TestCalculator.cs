@@ -1,27 +1,144 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using IntroTDD;
+using System;
+using System.Collections.Generic;
 
 namespace TestIntroTDD
 {
     [TestClass]
-    public class UnitTest1
+    public class TestCalculator
     {
+        #region private attributes
+        private int actualResult;
+        private int op1;
+        private int op2;
+        private int expectedResult;
+        private Calculator calculator;
+        #endregion private attributes
+
+        [TestInitialize]
+        public void Init()
+        {
+            this.op1 = 4;
+            this.op2 = 2;
+            this.calculator = new Calculator();
+        }
+
         [TestMethod]
         public void AddNominalCaseSuccess()
         {
             //given
-            int actualResult;
-            int expectedResult = 2 + 4;
-            int op1 = 2;
-            int op2 = 4;
-            char operatorChar = '+';
-            Calculator calculator = new Calculator();
+            this.expectedResult = 6;
 
             //when
-            actualResult = calculator.Add(op1, op2);
+            this.actualResult = this.calculator.Add(this.op1, this.op2);
 
             //then
-            Assert.AreEqual(expectedResult,actualResult);
+            Assert.AreEqual(this.expectedResult,this.actualResult);
+        }
+
+        [TestMethod]
+        public void SubNominalCaseSuccess()
+        {
+            //given
+            this.expectedResult = 2;
+
+            //when
+            this.actualResult = this.calculator.Sub(this.op1, this.op2);
+
+            //then
+            Assert.AreEqual(this.expectedResult, this.actualResult);
+        }
+
+        [TestMethod]
+        public void MulNominalCaseSuccess()
+        {
+            //given
+            this.expectedResult = 8;
+
+            //when
+            this.actualResult = this.calculator.Mul(this.op1, this.op2);
+
+            //then
+            Assert.AreEqual(this.expectedResult, this.actualResult);
+        }
+
+        [TestMethod]
+        public void DivNominalCaseSuccess()
+        {
+            //given
+            float actualResult;
+            this.expectedResult = 2;
+
+            //when
+            actualResult = this.calculator.Div(this.op1, this.op2);
+
+            //then
+            Assert.AreEqual(this.expectedResult, actualResult);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(DivideByZeroException))]
+        public void DivDividByZeroThrowException()
+        {
+            //given
+            this.op2 = 0;
+            float actualResult;
+
+            //when
+            actualResult = this.calculator.Div(this.op1, this.op2);
+
+            //then
+            //Exception is throwed
+        }
+
+        [TestMethod]
+        public void AddListOfItemsSuccess()
+        {
+            List<int> numbers = new List<int>();
+            numbers.Add(2);
+            numbers.Add(3);
+            numbers.Add(4);
+
+            this.expectedResult = 9;
+
+            //when
+            this.actualResult = this.calculator.Add(numbers);
+
+            //then
+            Assert.AreEqual(this.expectedResult, this.actualResult);
+        }
+
+        [TestMethod]
+        public void DivAutomaticRoundSuccess()
+        {
+            //given
+            this.op1 = 11;
+            this.op2 = 2;
+            float expectedResult = 5.5F;
+            float actualResult;
+
+            //when
+            actualResult = this.calculator.Div(this.op1, this.op2);
+
+            //then
+            Assert.AreEqual(expectedResult, actualResult);
+        }
+
+        [TestMethod]
+        public void DivWithOptionalParameterToRoundSuccess()
+        {
+            //given
+            this.op1 = 11;
+            this.op2 = 2;
+            this.expectedResult = 6;
+            float actualResult;
+
+            //when
+            actualResult = this.calculator.Div(this.op1, this.op2, true);
+
+            //then
+            Assert.AreEqual(this.expectedResult, actualResult);
         }
     }
 }
